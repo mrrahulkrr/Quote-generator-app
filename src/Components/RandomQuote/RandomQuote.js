@@ -64,7 +64,7 @@ const Home = () => {
             alt="bookmarks" />
             </div>
           </blockquote>
-          <button className="button" onClick={addBookmark}>Get Another Quote</button>
+          <button className="button" onClick={fetchRandomQuote}>Get Another Quote</button>
         </div>
       ) : (
         <p>Loading quote...</p>
